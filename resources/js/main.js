@@ -107,7 +107,7 @@ function renderTodoList() {
 	}
 		
 	for (var j = 0; j < data.completed.length; j++) {
-		var value = data.completed[i];
+		var value = data.completed[j];
 		addItemToDOM(value);
 	}
 }
